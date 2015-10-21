@@ -1,0 +1,17 @@
+{
+    "name": "@APP_ID@",
+    "description": "description of theWord",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "theWord": {
+            "apparmor": "theWord.apparmor",
+            "desktop":  "theWord.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Oliver Nichols <oliver.nic012@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
