@@ -115,71 +115,34 @@ Item { // generic Item to hold everything
                 width: parent.width;
                 //spacing: 10;
                 
-                Text {
+                TextEdit {
                     
                     //anchors.horizontalCenter: parent.horizontalCenter;  // center the text
                     height: paintedHeight;                              // height of the text
-                    wrapMode: Text.WordWrap;                            // wrap the text
+                    wrapMode: TextEdit.WordWrap;                            // wrap the text
                     width: parent.width - units.gu(4);                  // minus padding
-                    textFormat: Text.RichText;
+                    textFormat: TextEdit.RichText;
                     
                     font.pointSize: 24
                     
-                    
+                    readOnly: true;
                     text: "Lorem ipsum dolor sit amet, 
                                         <font style='background-color: #00ff00;'>23</font> 
                                         <style>.green,span {background-color: #00ff00; bgcolor: #00ff00;}</style>
                                         <u class='green'>world</u>
 <font class='green'>wow</font>
-                                        <table class='green'>
-                                            <tr><td class='green'>hello</td></tr>
-                                        </table>
+<a href='#sampleLink'>sample Link</a>
                                          pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. 
                                         <img src='graphics/theWord.png' height='50' width='50'> Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus.Lorem ipsum dolor sit amet, pri ad quem aeque reprimique, te eum repudiare mediocritatem. Dolor qualisque instructior cu mei. Mei an prima cetero aliquando, pri te audire iudicabit, minim postulant temporibus vix te. Mei modus tibique ei. No mea numquam feugait sadipscing, ut qui regione forensibus."
-                    
+                    onLinkActivated: {
+                        console.log(link);
+                    }
                 }
                 
                 
             }
             
-            Row {
-                width: parent.width;
-                
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                Text {text: "Hello silly"}
-                
-                Flow {
-                    width: parent.width;
-                    Text {text: "Hello world"}
-                    Text {text: "Hello world"}
-                    Text {text: "Hello world"}
-                    Text {text: "Hello world"}
-                    Text {text: "Hello world"}
-                    Text {text: "Hello world"}
-                    Text {text: "Hello world"}
-                }
-                Flow {
-                    width: parent.width;
-                    Text {text: "Hello there"}
-                    Text {text: "Hello there"}
-                    Text {text: "Hello there"}
-                    Text {text: "Hello there"}
-                    Text {text: "Hello there"}
-                    Text {text: "Hello there"}
-                    Text {text: "Hello there"}
-                    
-                }
-            }
+
             
             
             // ------------------- Bottom NavBar ----------------

@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=theWord
+Exec=qmlscene $@ theWord/Main.qml
+Icon=theWord/theWord.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

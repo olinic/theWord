@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-30 17:22-0400\n"
+"POT-Creation-Date: 2015-10-22 16:44-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,31 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../app/Main.qml:40
-#: /home/otter/Apps/build-theWord-Desktop-Default/po/theWord.desktop.in.h:1
+#: /home/otter012/Apps/theWord/theWord/Main-Copy.qml:28
+#: /home/otter012/Apps/theWord/theWord/Main.qml:40
+#: /home/otter012/build-theWord-Desktop-Debug/theWord/theWord.desktop.h:1
 msgid "theWord"
 msgstr ""
 
-#: ../app/Main.qml:48
-msgid "Settings"
-msgstr ""
-
-#: ../app/Main.qml:56
-msgid "Sample"
-msgstr ""
-
-#: ../app/Main.qml:63
+#: /home/otter012/Apps/theWord/theWord/Main-Copy.qml:34
+#: /home/otter012/Apps/theWord/theWord/Main.qml:63
 msgid "Hello world.."
 msgstr ""
 
-#: ../app/Main.qml:85
+#: /home/otter012/Apps/theWord/theWord/Main-Copy.qml:56
+#: /home/otter012/Apps/theWord/theWord/Main.qml:85
 msgid "Tap me!"
 msgstr ""
 
-#: ../app/Main.qml:88
+#: /home/otter012/Apps/theWord/theWord/Main-Copy.qml:59
+#: /home/otter012/Apps/theWord/theWord/Main.qml:88
 msgid "..from Cpp Backend"
+msgstr ""
+
+#: /home/otter012/Apps/theWord/theWord/Main.qml:48
+msgid "Settings"
+msgstr ""
+
+#: /home/otter012/Apps/theWord/theWord/Main.qml:56
+msgid "Sample"
 msgstr ""

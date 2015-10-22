@@ -1,12 +1,12 @@
 {
-    "name": "@APP_ID@",
+    "name": "theword.otter",
     "description": "description of theWord",
     "architecture": "@CLICK_ARCH@",
-    "title": "@APP_NAME@",
+    "title": "theWord",
     "hooks": {
         "theWord": {
-            "apparmor": "theWord.apparmor",
-            "desktop":  "theWord.desktop"
+            "apparmor": "theWord/theWord.apparmor",
+            "desktop":  "theWord/theWord.desktop"
         }
     },
     "version": "0.1",
