@@ -2,7 +2,76 @@ import QtQuick 2.4
 import Ubuntu.Components 1.2
 import Ubuntu.Components.Themes 0.1
 
-Item {
+ListModel {
+    id: colors
+
+
+    ListElement {
+        name: "Light"
+        background: "#FFFFFF"   // white
+        txt: "#000000"          // black
+        symbol: "dark"
+
+        accent: UbuntuColors.darkGrey;   // dark
+        accentTxt: "#FFFFFF"    // white
+        accentSymbol: "light"
+    }
+    ListElement {
+        name: "Light-Blue"
+        background: "#FFFFFF"   // white
+        txt: "#000000"          // black
+        symbol: "dark"
+
+        accent: "#0000BB"       // blue
+        accentTxt: "#FFFFFF"
+        accentSymbol: "light"
+    }
+
+    ListElement {
+        name: "Sepia"
+        background: "#FBF0D9"   // sepia
+        txt: "#5F4B32"          // not black
+        symbol: "dark"
+
+        accent: "#5F4B32"       // reverse
+        accentTxt: "#FBF0D9"
+        accentSymbol: "light"
+    }
+    ListElement {
+        name: "Ubuntu"
+        background: "#FFFFFF" // white
+        txt: "#000000" // black
+        symbol: "dark"
+
+        accent: "#0000BB" // blue
+        accentTxt: ""
+        accentSymbol: "light"
+    }
+    ListElement {
+        name: "Dark"
+        background: "#FFFFFF" // white
+        txt: "#000000" // black
+        symbol: "dark"
+
+        accent: "#0000BB" // blue
+        accentTxt: ""
+        accentSymbol: "light"
+    }
+    ListElement {
+        name: "Black"
+        background: "#FFFFFF" // white
+        txt: "#000000" // black
+        symbol: "dark"
+
+        accent: "#0000BB" // blue
+        accentTxt: ""
+        accentSymbol: "light"
+    }
+
+
+}
+
+/*Item {
     
 
     //--------------------------- PALETTES ------------------------------------------
@@ -31,4 +100,4 @@ Item {
             fieldText: "#888888"
         }
     }
-}
+}*/
